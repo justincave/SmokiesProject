@@ -64,7 +64,7 @@
       var mytile =L.tileLayer('https://github.com/justincave/SmokiesProject/QTiles7/{z}/{x}/{y}.png', {
         maxZoom: 8,
         minZoom:5,
-        tms:false
+        tms:true
       }).addTo(map);
 
       L.control.layers({'Basemap':baselayer},{'Smokies':mytile}).addTo(map);
