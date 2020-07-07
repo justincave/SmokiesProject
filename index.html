@@ -61,10 +61,10 @@
         subdomains:['mt0']}).addTo(map);
         }).addTo(map);
 
-      var mytile =L.tileLayer('http://localhost:8080/geoserver/gwc/service/tms/1.0.0/Smokies%3Asmokies_west_geotiff@EPSG%3A4326@png', {
+      var mytile =L.tileLayer('https://github.com/justincave/SmokiesProject/raw/master/QTiles7/{z}/{x}/{y}.png', {
         maxZoom: 8,
         minZoom:5,
-        tms:true
+        tms:false
       }).addTo(map);
 
       L.control.layers({'Basemap':baselayer},{'Smokies':mytile}).addTo(map);
