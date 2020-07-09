@@ -1,7 +1,0 @@
-1. download east/west 1970s map from USGS
-2. Download 2000 usgs topo quads NAD 1927 for georectification
-3. Georectify using bilinear, nst, or cubic 
-4. Tile using Qtiles in QGIS
-5. Upload Qtiles folder to github.com project 
-6. Write Leaflet code to include index.html
-7. Upload to GaiaGPS in form https:...{z}/{x}/{y}.png
